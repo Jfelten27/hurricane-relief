@@ -1,1 +1,4 @@
 # hurricane-relief
+
+Project Description:
+Our hurricane relief project is a software system designed to connect hurricane survivors with the help they need after a storm. Users must be able to find nearby resource locations, medical assistance, emergency updates, and volunteer support. The system also will give volunteers a way to learn about relief opportunities and organize between different groups to find places where help is needed. By making vital information easier to access, the project will help communities to recover quickly while using a shared reporting system to connect communication between volunteers and those in need.
