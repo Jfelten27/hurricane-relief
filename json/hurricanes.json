@@ -1,0 +1,30 @@
+[
+  {
+    "id": "467091b8-010a-4a53-9470-4353939efe47",
+    "name": "Yerim",
+    "category": 5,
+    "start_date": "2026-08-17T10:30:21",
+    "end_date": "2026-08-20T16:34:21",
+    "locations": [
+      {
+        "state": "SC",
+        "city": "",
+        "county": "Richland",
+        "street": "",
+        "zipcode": "29201"
+      },
+      {
+        "state": "SC",
+        "city": "",
+        "county": "Richland",
+        "street": "",
+        "zipcode": "29208"
+      }
+    ],
+    "status": "PASSED",
+    "observers": [
+      "UUID",
+      "UUID"
+    ]
+  }
+]
