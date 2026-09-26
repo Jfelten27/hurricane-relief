@@ -13,8 +13,7 @@
     "capacity": 100,
     "occupancy": 70,
     "volunteers": [
-      "UUID",
-      "UUID"
+      "ace00e95-9f57-4b63-86e6-0530a92c011b"
     ],
     "resources": [
       {
@@ -40,8 +39,7 @@
     "capacity": 20,
     "occupancy": 20,
     "volunteers": [
-      "UUID",
-      "UUID"
+      "d1d8dc85-e69f-42bf-af84-7be5a65878ee"
     ],
     "resources": [
       {
