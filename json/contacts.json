@@ -41,4 +41,18 @@
     "phone": "2024567041",
     "contact_preference": 2
   }
+
+  {
+    "id":"0108660c-72df-41af-8ada-397bd344ef27",
+    "email": "averagejoe@gmail.com",
+    "phone": "8039999999",
+    "contact_preference": 0
+  },
+
+  {
+    "id": "c2bb4710-f6bf-4b2a-bb57-75b254a80d50",
+    "email": "exceptionaljoe@outlook.com",
+    "phone": "8030000000",
+    "contact_preference": "1"
+  }
 ]

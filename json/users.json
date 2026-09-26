@@ -39,13 +39,34 @@
     "last_name": "Twoshoes",
     "password": "12345QWERty*",
     "location": {
-      "state": "CA",
-      "city": "Concord",
-      "street": "5206 Valmar Dr",
-      "zip": "94521"
+      "state": "NC",
+      "city": "Waxhaw",
+      "county": "Union",
+      "street": "119 Brevard St",
+      "zip": "28173"
     },
     "user_contact": "716e2075-5d56-482f-b109-c3068b50528d",
     "emergency_contact": "1d70cd7d-7b6f-4363-b3d2-6b94eae75815",
     "user_relief_requests": []
+  },
+
+  {
+    "id": "9097baea-66ad-43fe-9970-0aa7afe1ac10",
+    "first_name": "Average",
+    "last_name": "Joe",
+    "password": "password1",
+    "location": {
+      "state": "SC",
+      "city": "Columbia",
+      "county": "Richland",
+      "street": "1215 Blossom St",
+      "zip": "29201"
+    },
+    "user_contact": "0108660c-72df-41af-8ada-397bd344ef27",
+    "emergency_contact": "c2bb4710-f6bf-4b2a-bb57-75b254a80d50",
+    "user_relief_requests": [
+      "2ce1ccde-886a-45f2-9d5a-9d74f399df73",
+      "d03bdc30-aeb7-450b-b8aa-031e14dbe916"
+    ]
   }
 ]
