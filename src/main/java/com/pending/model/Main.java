@@ -1,4 +1,4 @@
-package com.pending.hurricanerelief;
+package com.pending.model;
 
 
 public class Main {
