@@ -29,6 +29,5 @@ Our hurricane relief project is a software system designed to **connect hurrican
 | Name | Role |
 | ----------- | ----------- |
 | Joshua Williams | TBD |
-| Greysen Lowry | TBD |
 | Landon Sprouse | TBD |
 | José Felten | TBD |
