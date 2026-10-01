@@ -1,6 +1,7 @@
 module com.pending.hurricanerelief {
     requires javafx.controls;
     requires javafx.fxml;
+    requires json.simple;
 
 
     opens com.pending.hurricanerelief to javafx.fxml;
