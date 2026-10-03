@@ -1,9 +1,10 @@
 package com.pending.model;
 
+import org.json.simple.JSONObject;
+
 import java.util.UUID;
 
-public class Contact {
-
+public class Contact implements Serializable {
     private UUID id;
     private String email;
     private String phone;
@@ -29,5 +30,21 @@ public class Contact {
 
     public boolean contactPhoneText() {
         return false;
+    }
+
+    public JSONObject serialize() {
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("id", id.toString());
+        jsonObject.put("email", email);
+        jsonObject.put("phone", phone);
+        jsonObject.put(contactPreference, contactPreference.ordinal());
+        return jsonObject;
+    }
+
+    public void deserialize(JSONObject object) {
+        id = UUID.fromString((String)object.get("id"));
+        email = (String)object.get("email");
+        phone = (String)object.get("phone");
+        contactPreference = (ContactPreference)object.get("contact_preference");
     }
 }

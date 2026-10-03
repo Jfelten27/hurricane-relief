@@ -1,19 +1,36 @@
 package com.pending.model;
 
-import java.io.Serializable;
+import org.json.simple.JSONObject;
 
-public class DataManager<T extends Serializable> {
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class DataManager {
+    private FileReader reader;
+    private FileWriter writer;
     private String filename;
 
-    public DataList<T> read() {
+    public DataManager(String filename) {
+        try {
+            reader = new FileReader(filename);
+            writer = new FileWriter(filename);
+        } catch (Exception e) {
+            System.out.println(Arrays.toString(e.getStackTrace()));
+        }
+    }
+
+    public ArrayList<JSONObject> read() {
         return null;
     }
 
-    public DataList<T> readUUIDList() {
+    public ArrayList<JSONObject> readUUIDList() {
         return null;
     }
 
-    public void write(DataList<T> dataList) {
+    public void write(JSONObject object) {
 
     }
 }

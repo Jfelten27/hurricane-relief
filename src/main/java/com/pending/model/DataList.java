@@ -1,6 +1,5 @@
 package com.pending.model;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -8,7 +7,7 @@ public class DataList<T extends Serializable> {
     private static final HashMap<String, DataList<?>> dataLists = new HashMap<>();
     ArrayList<T> objects;
     private String fileName;
-    private DataManager<T> dataManager;
+    private DataManager dataManager;
 
     private DataList() {
 
